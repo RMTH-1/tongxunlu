@@ -43,8 +43,6 @@ int FindMem(vector <member> *people, string name)
 	return num;
 }
 
-//删除联系人
-
 //显示所有成员
 void ShowAll(vector <member> *people)
 {

@@ -14,6 +14,7 @@ struct member {
 	int num;
 };
 
+void ShowMenu();
 member AddMem();
 int FindMem(vector <member>*, string);
 void ShowAll(vector <member>*);

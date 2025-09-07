@@ -11,4 +11,9 @@ struct member {
 	int age;
 	string phone;
 	string address;
+	int num;
 };
+
+member AddMem();
+int FindMem(vector <member>*, string);
+void ShowAll(vector <member>*);

@@ -10,7 +10,7 @@ int main(){
 	ShowMenu();
 	cout << "ÇëÊäÈëÊý×Ö1-7£º";
 	cin >> chose;
-	while (chose != 7)
+	while (1)
 	{
 		if (chose < 1 || chose > 7)
 		{
@@ -74,8 +74,8 @@ int main(){
 			cin >> yorn;
 			if (yorn == 'y' || yorn == 'Y')
 				goto End;
-			else
-				break;
+			
+			break;
 		default:
 			break;
 		}
@@ -88,12 +88,6 @@ int main(){
 		cin >> chose;
 		
 	}
-
-
-	//per.name = "zhao";
-	//per.num = people.size();
-	//people.emplace_back(per);
-
 
 	End:
 	return 0;
